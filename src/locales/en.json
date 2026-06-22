@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "title": "English for finance in Switzerland — Michael Dever & Associates",
+    "description": "Specialist English translation, content writing and editing for finance, investor relations and corporate communications in Switzerland."
+  },
+  "nav": {
+    "work": "What we do",
+    "ai": "AI",
+    "clients": "Clients",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "name": "Michael Dever & Associates",
+    "tagline": "English language services in Switzerland",
+    "headline": "English for finance, investor relations and corporate communications",
+    "intro1": "Michael Dever & Associates provides specialist English-language translation, content writing and editing services.",
+    "intro2": "Our core business is helping organisations communicate clearly and confidently with investors, shareholders, analysts, clients and other stakeholders in English.",
+    "intro3": "Drawing on more than two decades of experience in financial services, we combine subject-matter expertise with publication-quality English."
+  },
+  "work": {
+    "heading": "What we do",
+    "p1": "Our usual assignments are annual and interim reports, earnings releases, investor presentations, sustainability disclosures, websites, speeches and other high-profile corporate communications.",
+    "p2": "Effective communication requires more than linguistic accuracy. It demands an understanding of the subject matter, the audience and the conventions of English-language business writing. Every assignment is therefore approached as both a language and communications project."
+  },
+  "ai": {
+    "heading": "Artificial intelligence and confidentiality",
+    "p1": "We take a pragmatic approach to artificial intelligence.",
+    "p2": "AI-powered tools are used where they add value, improve efficiency and do not place confidentiality at risk. However, we do not believe that excellent communication can be generated automatically. Technology can assist the process, but the best texts start in the mind, not on the motherboard.",
+    "p3": "Every project ultimately benefits from human judgement, subject-matter expertise and an understanding of how sophisticated English-language audiences read and interpret information. We therefore view AI as a tool, not a substitute for professional judgement, experience or writing ability.",
+    "p4": "Where confidentiality requirements or the nature of the assignment make the use of AI inappropriate, we work entirely without it."
+  },
+  "clients": {
+    "heading": "Clients",
+    "p1": "Our long-standing client base includes banks, insurers, non-financial companies, regulators, public bodies and professional services firms across Switzerland."
+  },
+  "about": {
+    "heading": "About us",
+    "p1": "Michael Dever & Associates celebrates its twentieth anniversary in 2026.",
+    "p2": "Over two decades we've earned the trust of Switzerland's business community. My team's depth of experience and commitment to quality make us a valued partner for companies seeking precise, reliable English."
+  },
+  "contact": {
+    "heading": "Contact",
+    "geneva": "Geneva office",
+    "charmey": "Charmey office",
+    "mobile": "Mobile",
+    "email": "Email",
+    "linkedin": "LinkedIn",
+    "linkedinLabel": "LinkedIn Profile"
+  },
+  "footer": {
+    "copyright": "© 2026 Michael Dever & Associates"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Michael Dever & Associates",
+  "short_name": "Michael Dever",
+  "description": "Specialist English-language translation, content writing and editing for finance, investor relations and corporate communications in Switzerland.",
+  "lang": "en",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fbfaf6",
+  "theme_color": "#10192a",
+  "icons": [
+    { "src": "/favicon.svg", "type": "image/svg+xml", "sizes": "any" },
+    { "src": "/apple-touch-icon.png", "type": "image/png", "sizes": "180x180" },
+    { "src": "/icon-192.png", "type": "image/png", "sizes": "192x192", "purpose": "any" },
+    { "src": "/icon-512.png", "type": "image/png", "sizes": "512x512", "purpose": "any" },
+    { "src": "/icon-512.png", "type": "image/png", "sizes": "512x512", "purpose": "maskable" }
+  ]
+}

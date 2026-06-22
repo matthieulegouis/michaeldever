@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "title": "Englisch für die Schweizer Finanzwelt — Michael Dever & Associates",
+    "description": "Übersetzung, Lektorat und Revision auf Englisch für Finanzwesen, Investor Relations und Unternehmenskommunikation in der Schweiz."
+  },
+  "nav": {
+    "work": "Tätigkeiten",
+    "ai": "KI",
+    "clients": "Kunden",
+    "about": "Über uns",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "name": "Michael Dever & Associates",
+    "tagline": "Sprachdienstleistungen auf Englisch für die Schweiz",
+    "headline": "Englisch für Finanzwesen, Investor Relations und Unternehmenskommunikation",
+    "intro1": "Michael Dever & Associates bietet spezialisierte Übersetzungs-, Textredaktions- und Revisionsdienstleistungen in englischer Sprache.",
+    "intro2": "Im Zentrum unserer Tätigkeit steht die Unterstützung von Organisationen bei einer klaren und überzeugenden Kommunikation mit Investoren, Aktionären, Analysten, Kunden und weiteren Anspruchsgruppen auf Englisch.",
+    "intro3": "Dank mehr als zwanzig Jahren Erfahrung im Finanzsektor verbinden wir fundiertes Fachwissen mit publikationsreifem Englisch."
+  },
+  "work": {
+    "heading": "Unsere Tätigkeiten",
+    "p1": "Zu unseren typischen Aufträgen gehören Geschäfts- und Halbjahresberichte, Ergebnisveröffentlichungen, Investorenpräsentationen, Nachhaltigkeitsberichte, Websites, Reden und weitere Kommunikationsmassnahmen mit hoher Sichtbarkeit.",
+    "p2": "Erfolgreiche Kommunikation erfordert mehr als sprachliche Präzision. Sie setzt ein Verständnis des Fachgebiets, der Zielgruppe und der Konventionen englischsprachiger Wirtschafts- und Unternehmenskommunikation voraus. Deshalb betrachten wir jeden Auftrag sowohl als sprachliches als auch als kommunikatives Projekt."
+  },
+  "ai": {
+    "heading": "Künstliche Intelligenz und Vertraulichkeit",
+    "p1": "Wir verfolgen einen pragmatischen Ansatz im Umgang mit künstlicher Intelligenz.",
+    "p2": "KI-gestützte Werkzeuge kommen dort zum Einsatz, wo sie einen Mehrwert schaffen, die Effizienz erhöhen und die Vertraulichkeit nicht gefährden. Gleichzeitig sind wir überzeugt, dass hochwertige Kommunikation nicht automatisch erzeugt werden kann. Technologie kann den Prozess unterstützen, doch die besten Texte entstehen im Kopf – nicht im Serverraum.",
+    "p3": "Jedes Projekt profitiert letztlich von menschlichem Urteilsvermögen, Fachkompetenz und dem Verständnis dafür, wie anspruchsvolle englischsprachige Zielgruppen Informationen lesen und interpretieren. Wir betrachten KI daher als Hilfsmittel und nicht als Ersatz für professionelles Urteilsvermögen, Erfahrung oder redaktionelle Fähigkeiten.",
+    "p4": "Wo Vertraulichkeitsanforderungen oder die Art des Auftrags den Einsatz von KI ausschliessen, arbeiten wir vollständig ohne solche Werkzeuge."
+  },
+  "clients": {
+    "heading": "Kunden",
+    "p1": "Zu unserem langjährigen Kundenstamm zählen Banken, Versicherer, nicht-finanzielle Unternehmen, Aufsichtsbehörden, öffentliche Institutionen und Dienstleistungsunternehmen in der ganzen Schweiz."
+  },
+  "about": {
+    "heading": "Über uns",
+    "p1": "Michael Dever & Associates feiert 2026 sein zwanzigjähriges Bestehen.",
+    "p2": "Seit zwanzig Jahren stehen wir für Vertrauen am Schweizer Sprachdienstleistungsmarkt. Fundiertes Fachwissen und Sinn für Qualität machen uns zu geschätzten Partnern von Firmen, die Präzision und Vertraulichkeit grossschreiben."
+  },
+  "contact": {
+    "heading": "Kontakt",
+    "geneva": "Büro in Genf",
+    "charmey": "Büro in Charmey",
+    "mobile": "Mobil",
+    "email": "E-Mail",
+    "linkedin": "LinkedIn",
+    "linkedinLabel": "LinkedIn-Profil"
+  },
+  "footer": {
+    "copyright": "© 2026 Michael Dever & Associates"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "title": "L'anglais pour la finance en Suisse — Michael Dever & Associates",
+    "description": "Traduction, rédaction et révision spécialisées en anglais pour la finance, les relations investisseurs et la communication d'entreprise en Suisse."
+  },
+  "nav": {
+    "work": "Notre activité",
+    "ai": "IA",
+    "clients": "Clientèle",
+    "about": "À propos",
+    "contact": "Contact"
+  },
+  "hero": {
+    "name": "Michael Dever & Associates",
+    "tagline": "Services linguistiques en anglais en Suisse",
+    "headline": "La passerelle linguistique des entreprises suisses vers le monde anglophone",
+    "intro1": "Michael Dever & Associates propose des services spécialisés de traduction, de rédaction et de révision en anglais.",
+    "intro2": "Notre cœur de métier consiste à aider les organisations à communiquer avec clarté et assurance en anglais auprès de leurs investisseurs, actionnaires, analystes, clients et autres parties prenantes.",
+    "intro3": "Forts de plus de vingt ans d'expérience dans les services financiers, nous associons expertise sectorielle et anglais de niveau publication."
+  },
+  "work": {
+    "heading": "Notre activité",
+    "p1": "Nos missions portent principalement sur les rapports annuels et semestriels, les communiqués de résultats, les présentations aux investisseurs, les informations en matière de durabilité, les sites web, les discours et autres supports de communication d'entreprise à forte visibilité.",
+    "p2": "Une communication efficace exige davantage qu'une simple précision linguistique. Elle suppose une compréhension du sujet traité, du public visé et des codes de la rédaction professionnelle en anglais. Chaque mandat est donc abordé comme un projet à la fois linguistique et de communication."
+  },
+  "ai": {
+    "heading": "Intelligence artificielle et confidentialité",
+    "p1": "Nous adoptons une approche pragmatique de l'intelligence artificielle.",
+    "p2": "Les outils fondés sur l'IA sont utilisés lorsqu'ils apportent une réelle valeur ajoutée, améliorent l'efficacité et ne compromettent pas la confidentialité. Nous ne pensons toutefois pas qu'une communication d'excellence puisse être générée automatiquement. La technologie peut assister le processus, mais les meilleurs textes naissent dans l'esprit, non sur la carte mère.",
+    "p3": "Chaque projet bénéficie en définitive du jugement humain, de l'expertise métier et d'une compréhension approfondie de la manière dont un lectorat anglophone averti lit et interprète l'information. Nous considérons donc l'IA comme un outil, et non comme un substitut au discernement professionnel, à l'expérience ou aux compétences rédactionnelles.",
+    "p4": "Lorsque les exigences de confidentialité ou la nature du mandat rendent l'utilisation de l'IA inappropriée, nous travaillons entièrement sans y recourir."
+  },
+  "clients": {
+    "heading": "Notre clientèle",
+    "p1": "Notre clientèle, dont nombre d'entreprises nous font confiance depuis de nombreuses années, comprend des banques, des compagnies d'assurance, des sociétés non financières, des autorités de surveillance, des organismes publics et des sociétés de services dans toute la Suisse."
+  },
+  "about": {
+    "heading": "Qui sommes-nous ?",
+    "p1": "Michael Dever & Associates souffle vingt bougies en 2026.",
+    "p2": "Au fil de toutes ces années, nous avons noué une relation de confiance avec notre clientèle suisse. Grâce à sa grande expérience et à son engagement sans faille à la qualité, notre équipe est un partenaire reconnu pour les entreprises dont les contenus en anglais exigent rigueur et fiabilité."
+  },
+  "contact": {
+    "heading": "Contact",
+    "geneva": "Bureau de Genève",
+    "charmey": "Bureau de Charmey",
+    "mobile": "Mobile",
+    "email": "Adresse e-mail",
+    "linkedin": "LinkedIn",
+    "linkedinLabel": "Profil LinkedIn"
+  },
+  "footer": {
+    "copyright": "© 2026 Michael Dever & Associates"
+  }
+}

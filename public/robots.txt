@@ -1,0 +1,8 @@
+# robots.txt — Michael Dever & Associates
+# All crawlers welcome, including AI / generative-engine crawlers
+# (GPTBot, OAI-SearchBot, PerplexityBot, ClaudeBot, Google-Extended, etc.).
+
+User-agent: *
+Allow: /
+
+Sitemap: https://michael-dever.com/sitemap-index.xml
