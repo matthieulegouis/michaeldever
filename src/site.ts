@@ -6,7 +6,7 @@ export const SITE = {
   name: "Michael Dever & Associates",
   url: "https://michael-dever.com",
   email: "contact@michael-dever.com",
-  linkedin: "https://www.linkedin.com/in/michaeldever/",
+  linkedin: "https://www.linkedin.com/in/michael-dever-5342a3117/",
   // 20th anniversary in 2026 → founded 2006.
   foundingDate: "2006",
   founder: "Michael Dever",
