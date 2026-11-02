@@ -6,7 +6,7 @@ Site statique construit avec Astro + Tailwind v4. La version anglaise est publi�
 
 Le contenu anglais se trouve dans `src/locales/en.json`. Les anciens fichiers `fr.json` et `de.json` sont conservés pour préparer les traductions, mais ne sont plus chargés ni publiés.
 
-Les sections sont : accueil (`hero`), services (`work`), IA et confidentialité (`ai`), clients (`clients`), présentation (`about`) et contact (`contact`). Le titre d'accueil est présenté sur deux lignes, avec « Trust » en italique.
+Les sections sont : accueil (`hero`), services (`work`), IA et confidentialité (`ai`), clients (`clients`), présentation (`about`) et contact (`contact`). Le titre d'accueil est présenté sur deux lignes, avec « Trust » mis en valeur. La typographie utilise Helvetica Neue, Helvetica ou Arial selon le système.
 
 Les coordonnées communes se trouvent dans `src/site.ts`, utilisées à la fois par la page et les données de référencement. Seul le mobile est publié. Les localités de Genève et Charmey sont conservées.
 
