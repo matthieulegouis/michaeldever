@@ -1,84 +1,51 @@
 # Michael Dever & Associates — Site vitrine
 
-Site statique en 3 langues (EN, FR, DE) construit avec Astro + Tailwind v4.
+Site statique construit avec Astro + Tailwind v4. La version anglaise est publiée sur `/`. Les versions française et allemande sont temporairement désactivées en attendant les nouvelles traductions.
 
-## Modifier le contenu (cas le plus courant)
+## Modifier le contenu
 
-Tout le texte du site vit dans 3 fichiers JSON :
+Le contenu anglais se trouve dans `src/locales/en.json`. Les anciens fichiers `fr.json` et `de.json` sont conservés pour préparer les traductions, mais ne sont plus chargés ni publiés.
 
-```
-src/locales/en.json   ← anglais (langue par défaut, /)
-src/locales/fr.json   ← français (/fr/)
-src/locales/de.json   ← allemand (/de/)
-```
+Les sections sont : accueil (`hero`), services (`work`), IA et confidentialité (`ai`), clients (`clients`), présentation (`about`) et contact (`contact`). Le titre d'accueil est présenté sur deux lignes, avec « Trust » en italique.
 
-Les 3 fichiers ont **exactement la même structure de clés**. Pour changer un texte, on modifie la valeur dans chacun des 3 fichiers, on commit, on push → Vercel redéploie automatiquement en ~30 secondes.
+Les coordonnées communes se trouvent dans `src/site.ts`, utilisées à la fois par la page et les données de référencement. Seul le mobile est publié. Les localités de Genève et Charmey sont conservées.
 
-Exemple : pour changer le numéro de mobile, chercher `+41 76 394 06 30` dans `src/components/Page.astro` (les numéros / l'email / le lien LinkedIn sont dans le composant, pas dans les JSON, car ils sont identiques dans toutes les langues).
-
-### Sections de la page
-
-Dans l'ordre, chaque JSON contient : `hero` (accroche + titre + 3 paragraphes d'intro), `work` (« Notre activité »), `ai` (« Intelligence artificielle et confidentialité »), `clients` (« Notre clientèle »), `about` (« Qui sommes-nous ? ») et `contact`.
-
-## Développement local
+## Développement et vérification
 
 ```bash
 npm install
 npm run dev          # http://localhost:4321
-npm run build        # build statique dans dist/
-npm run preview      # preview du build
+npx astro check
+npm run build        # site statique dans dist/
+npm run preview      # aperçu du résultat compilé
 ```
 
-## Déploiement sur Vercel
+## Déploiement
 
-1. Pousser ce repo sur GitHub.
-2. Sur Vercel : **Add New → Project → Import** ce repo.
-3. Vercel détecte Astro tout seul. Laisser les valeurs par défaut :
-   - Framework Preset : Astro
-   - Build Command : `npm run build`
-   - Output Directory : `dist`
-4. **Deploy**.
+Le dépôt contient une configuration Netlify (`netlify.toml`) : commande `npm run build`, dossier publié `dist`, Node 20. Le domaine canonique est `https://michael-dever.com`, défini dans `astro.config.mjs`.
 
-Plan gratuit (Hobby) : largement suffisant pour ce site (100 GB de bande passante / mois inclus).
+Les règles Netlify redirigent temporairement `/fr`, `/fr/*`, `/de` et `/de/*` vers `/` avec un statut HTTP 302. Les pages Astro FR/DE génèrent aussi un repli HTML de redirection pour les hébergements statiques. Sur un autre hébergeur, configurer les mêmes redirections HTTP 302 dans ses propres règles.
 
-### Domaine personnalisé
+Le sélecteur de langue est masqué. Le sitemap, les balises de langue et les données décrivant les versions du site ne déclarent que l'anglais. Les langues de travail de l'entreprise restent l'anglais, le français et l'allemand.
 
-Une fois déployé, dans Vercel → Settings → Domains, ajouter `michael-dever.com` (ou le domaine choisi) et suivre les instructions DNS.
+## Réactiver les traductions
 
-Ensuite, vérifier dans `astro.config.mjs` :
+1. Mettre à jour `src/locales/fr.json` et `src/locales/de.json` avec les traductions validées et la même structure que le contenu anglais.
+2. Les réimporter dans `src/i18n.ts`, puis rétablir les langues, noms et codes Open Graph correspondants.
+3. Remplacer les pages de redirection dans `src/pages/fr/index.astro` et `src/pages/de/index.astro` par le rendu de `Layout` et `Page` dans chaque langue.
+4. Réactiver les langues et le sitemap multilingue dans `astro.config.mjs`, et retirer son filtre limité à `/`.
+5. Réafficher `LanguageSwitcher` dans `Page.astro`, retirer les règles de redirection de l'hébergeur et mettre à jour `public/llms.txt`.
+6. Vérifier puis reconstruire le site.
 
-```js
-site: "https://michael-dever.com",
-```
+## Structure
 
-…et redéployer (pour que les URLs canoniques et hreflang soient correctes).
-
-## Notes importantes
-
-- **Les traductions FR/DE sont à relire par Michael** avant la mise en ligne — c'est lui le pro, pas le développeur. Deux passages manquaient dans le document allemand (le paragraphe « Clients » et la phrase sur le 20ᵉ anniversaire) et ont été traduits depuis l'anglais : à valider.
-- Les routes générées sont `/` (EN), `/fr/`, `/de/`. EN n'a pas de préfixe (langue par défaut).
-- Le sélecteur de langue est en haut à droite de toutes les pages.
-- Toutes les pages partagent le même composant `src/components/Page.astro` — donc une modif de structure (ex. réordonner les sections) ne se fait qu'une seule fois.
-
-## Structure du projet
-
-```
-src/
-  locales/        ← contenu (JSON) ⭐ c'est ici que ça se passe
-    en.json
-    fr.json
-    de.json
-  pages/          ← une route par langue (chacune ~3 lignes)
-    index.astro
-    fr/index.astro
-    de/index.astro
-  components/
-    Page.astro            ← structure de la page (sections)
-    LanguageSwitcher.astro
-  layouts/
-    Layout.astro          ← <head>, fonts, hreflang
-  styles/
-    global.css            ← Tailwind + variables couleurs/fonts
-  i18n.ts                 ← helper qui charge les JSON
-astro.config.mjs          ← config i18n
+```text
+src/locales/             Textes anglais et traductions conservées
+src/pages/               Page anglaise et redirections FR/DE
+src/components/          Page et sélecteur de langue conservé
+src/layouts/Layout.astro Métadonnées et données structurées
+src/site.ts              Coordonnées et informations de l'entreprise
+src/i18n.ts              Langues publiées et chargement du contenu
+src/styles/global.css    Styles et titre d'accueil
+public/llms.txt           Présentation destinée aux moteurs génératifs
 ```

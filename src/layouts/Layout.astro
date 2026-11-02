@@ -48,20 +48,6 @@ const places = OFFICES.map((o) => ({
 const contactPoints = [
   {
     "@type": "ContactPoint",
-    telephone: e164(PHONES.geneva),
-    contactType: "office",
-    areaServed: "CH",
-    availableLanguage: ["en", "fr", "de"],
-  },
-  {
-    "@type": "ContactPoint",
-    telephone: e164(PHONES.charmey),
-    contactType: "office",
-    areaServed: "CH",
-    availableLanguage: ["en", "fr", "de"],
-  },
-  {
-    "@type": "ContactPoint",
     telephone: e164(PHONES.mobile),
     contactType: "sales",
     email: SITE.email,
@@ -74,6 +60,7 @@ const services = [
   "English-language translation",
   "Content writing",
   "Editing and revision",
+  "Independent review",
 ];
 
 const jsonLd = {
@@ -86,7 +73,7 @@ const jsonLd = {
       url: `${SITE.url}/`,
       description: dict.meta.description,
       email: SITE.email,
-      telephone: e164(PHONES.geneva),
+      telephone: e164(PHONES.mobile),
       foundingDate: SITE.foundingDate,
       image: ogImage,
       logo: { "@type": "ImageObject", url: ogImage },

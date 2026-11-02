@@ -17,9 +17,7 @@ export interface Phone {
   href: string;
 }
 
-export const PHONES: Record<"geneva" | "charmey" | "mobile", Phone> = {
-  geneva: { display: "+41 22 731 20 40", href: "tel:+41227312040" },
-  charmey: { display: "+41 26 927 26 65", href: "tel:+41269272665" },
+export const PHONES: Record<"mobile", Phone> = {
   mobile: { display: "+41 76 394 06 30", href: "tel:+41763940630" },
 };
 
@@ -28,7 +26,6 @@ export interface Office {
   locality: string;
   region: string;
   geo: { lat: number; lng: number };
-  phone: Phone;
 }
 
 // City-level coordinates (no street address published).
@@ -38,14 +35,12 @@ export const OFFICES: Office[] = [
     locality: "Genève",
     region: "Genève",
     geo: { lat: 46.2044, lng: 6.1432 },
-    phone: PHONES.geneva,
   },
   {
     key: "charmey",
     locality: "Charmey",
     region: "Fribourg",
     geo: { lat: 46.6186, lng: 7.1606 },
-    phone: PHONES.charmey,
   },
 ];
 

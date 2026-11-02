@@ -5,3 +5,28 @@
 
 [build.environment]
   NODE_VERSION = "20"
+
+# Temporary redirects until the revised translations are ready.
+[[redirects]]
+  from = "/fr"
+  to = "/"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "/fr/*"
+  to = "/"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "/de"
+  to = "/"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "/de/*"
+  to = "/"
+  status = 302
+  force = true

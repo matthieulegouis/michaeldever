@@ -1,7 +1,6 @@
 ---
 import { t, type Locale } from "../i18n";
 import { SITE, PHONES } from "../site";
-import LanguageSwitcher from "./LanguageSwitcher.astro";
 
 interface Props {
   locale: Locale;
@@ -23,7 +22,6 @@ const dict = t(locale);
     >
       Michael Dever <span class="text-muted">&amp; Associates</span>
     </a>
-    <LanguageSwitcher current={locale} />
   </div>
 </header>
 
@@ -33,19 +31,11 @@ const dict = t(locale);
     <div
       class="mx-auto max-w-6xl px-6 pt-20 pb-24 md:px-10 md:pt-32 md:pb-40"
     >
-      <p
-        class="reveal text-xs font-medium tracking-[0.25em] uppercase text-accent"
-      >
-        <span
-          class="mr-4 inline-block h-px w-10 translate-y-[-3px] bg-accent align-middle"
-        ></span>
-        {dict.hero.tagline}
-      </p>
-      <h1
-        class="reveal mt-8 max-w-5xl font-serif text-[2.6rem] leading-[1.06] font-medium tracking-[-0.015em] text-ink md:mt-10 md:text-7xl md:leading-[1.02]"
-      >
-        {dict.hero.headline}
+      <h1 class="campaign-title">
+        <span class="campaign-from">{dict.hero.headlineFrom}</span>{" "}
+        <span class="campaign-to">{dict.hero.headlineTo}{" "}<em>{dict.hero.headlineTrust}</em><span class="campaign-stop" aria-hidden="true">.</span></span>
       </h1>
+      <h2 class="campaign-subtitle">{dict.hero.subtitle}</h2>
       <div class="reveal mt-12 max-w-2xl space-y-6 md:mt-14">
         <p class="text-xl leading-relaxed text-ink md:text-2xl">
           {dict.hero.intro1}
@@ -77,6 +67,7 @@ const dict = t(locale);
         >
           <p>{dict.work.p1}</p>
           <p>{dict.work.p2}</p>
+          <p>{dict.work.p3}</p>
         </div>
       </div>
     </div>
@@ -107,7 +98,6 @@ const dict = t(locale);
           >
             <p>{dict.ai.p2}</p>
             <p>{dict.ai.p3}</p>
-            <p>{dict.ai.p4}</p>
           </div>
         </div>
       </div>
@@ -126,11 +116,10 @@ const dict = t(locale);
             </h2>
           </div>
         </div>
-        <p
-          class="reveal max-w-2xl text-base leading-relaxed text-ink-soft md:col-span-8 md:text-lg lg:col-start-5 lg:col-span-7"
-        >
-          {dict.clients.p1}
-        </p>
+        <div class="reveal max-w-2xl space-y-6 text-base leading-relaxed text-ink-soft md:col-span-8 md:text-lg lg:col-start-5 lg:col-span-7">
+          <p>{dict.clients.p1}</p>
+          <p>{dict.clients.p2}</p>
+        </div>
       </div>
     </div>
   </section>
@@ -160,6 +149,9 @@ const dict = t(locale);
           >
             {dict.about.p2}
           </p>
+          <p class="reveal mt-6 text-base leading-relaxed text-ink-soft md:text-lg">
+            {dict.about.p3}
+          </p>
         </div>
       </div>
     </div>
@@ -178,6 +170,9 @@ const dict = t(locale);
           </div>
         </div>
         <div class="md:col-span-8 lg:col-start-5 lg:col-span-7">
+          <p class="reveal mb-8 text-base leading-relaxed text-paper/70 md:text-lg">
+            {dict.contact.intro}
+          </p>
           <a
             href={`mailto:${SITE.email}`}
             class="reveal block font-serif text-2xl tracking-tight break-words text-paper transition-colors hover:text-accent sm:text-4xl md:text-5xl"
@@ -187,26 +182,6 @@ const dict = t(locale);
           <div
             class="reveal mt-12 grid gap-x-10 gap-y-8 border-t border-paper/15 pt-10 sm:grid-cols-2"
           >
-            <div>
-              <p class="text-xs tracking-[0.2em] uppercase text-paper/40">
-                {dict.contact.geneva}
-              </p>
-              <a
-                href={PHONES.geneva.href}
-                class="mt-1 inline-block font-serif text-lg text-paper transition-colors hover:text-accent md:text-xl"
-                >{PHONES.geneva.display}</a
-              >
-            </div>
-            <div>
-              <p class="text-xs tracking-[0.2em] uppercase text-paper/40">
-                {dict.contact.charmey}
-              </p>
-              <a
-                href={PHONES.charmey.href}
-                class="mt-1 inline-block font-serif text-lg text-paper transition-colors hover:text-accent md:text-xl"
-                >{PHONES.charmey.display}</a
-              >
-            </div>
             <div>
               <p class="text-xs tracking-[0.2em] uppercase text-paper/40">
                 {dict.contact.mobile}

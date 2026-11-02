@@ -35,6 +35,64 @@ body {
   color: #fff;
 }
 
+a:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 5px;
+}
+
+/* Campaign headline supplied with the updated English copy. */
+.campaign-title {
+  font-family: var(--font-serif);
+  font-weight: 400;
+  letter-spacing: -0.055em;
+  line-height: 0.99;
+  margin: 0;
+  max-width: 100%;
+  font-size: clamp(2.7rem, 7.8vw, 6.8rem);
+}
+
+.campaign-from,
+.campaign-to {
+  display: block;
+  color: var(--color-ink);
+}
+
+.campaign-to {
+  margin-top: 0.08em;
+}
+
+.campaign-to em {
+  font-weight: 500;
+  color: #93672d;
+  font-style: italic;
+}
+
+.campaign-stop {
+  color: #93672d;
+}
+
+.campaign-subtitle {
+  font-family: var(--font-serif);
+  font-weight: 400;
+  letter-spacing: -0.015em;
+  font-size: clamp(1.55rem, 3vw, 2.3rem);
+  line-height: 1.23;
+  max-width: 37rem;
+  margin: 2.5rem 0 0;
+  padding-top: 1.75rem;
+  border-top: 1px solid #b7a181;
+}
+
+@media (max-width: 380px) {
+  .campaign-title {
+    font-size: 2.45rem;
+  }
+
+  .campaign-subtitle {
+    font-size: 1.4rem;
+  }
+}
+
 /* Subtle scroll reveal — only when JS is available, so content is never
    hidden for no-JS users or crawlers. */
 @media (prefers-reduced-motion: no-preference) {

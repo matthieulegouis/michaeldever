@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "English for finance in Switzerland — Michael Dever & Associates",
-    "description": "Specialist English translation, content writing and editing for finance, investor relations and corporate communications in Switzerland."
+    "title": "From Translation to Trust — Michael Dever & Associates",
+    "description": "Specialist English translation, writing, editing and independent review for finance, investor relations and corporate communications in Switzerland."
   },
   "nav": {
     "work": "What we do",
@@ -12,41 +12,45 @@
   },
   "hero": {
     "name": "Michael Dever & Associates",
-    "tagline": "English language services in Switzerland",
-    "headline": "English for finance, investor relations and corporate communications",
-    "intro1": "Michael Dever & Associates provides specialist English-language translation, content writing and editing services.",
-    "intro2": "Our core business is helping organisations communicate clearly and confidently with investors, shareholders, analysts, clients and other stakeholders in English.",
-    "intro3": "Drawing on more than two decades of experience in financial services, we combine subject-matter expertise with publication-quality English."
+    "headline": "From Translation to Trust",
+    "headlineFrom": "From Translation",
+    "headlineTo": "to",
+    "headlineTrust": "Trust",
+    "subtitle": "Confidence in your financial and corporate communications",
+    "intro1": "Your communications carry your reputation. You need to know that they are accurate, convey your intended message and stand up to scrutiny — in every language in which you publish.",
+    "intro2": "Michael Dever & Associates provides specialist English translation, writing, editing and independent review for finance, investor relations and corporate communications.",
+    "intro3": "Whether we produce your texts or review work prepared elsewhere, we bring the expertise and judgement you need to publish with confidence. For multilingual projects, we coordinate with trusted colleagues who apply the same care in their own languages."
   },
   "work": {
     "heading": "What we do",
-    "p1": "Our usual assignments are annual and interim reports, earnings releases, investor presentations, sustainability disclosures, websites, speeches and other high-profile corporate communications.",
-    "p2": "Effective communication requires more than linguistic accuracy. It demands an understanding of the subject matter, the audience and the conventions of English-language business writing. Every assignment is therefore approached as both a language and communications project."
+    "p1": "We help you communicate clearly with investors, shareholders, analysts, clients and other stakeholders. Our work covers annual and interim reports, earnings releases, investor presentations, sustainability disclosures, websites and speeches.",
+    "p2": "You can entrust us with a text from the outset or bring us in to assess and refine an existing draft. We examine the substance as well as the language: terminology, consistency, tone and the meaning your audience will take away.",
+    "p3": "An independent review before publication can catch errors and ambiguities that earlier stages have missed. It also gives you access to specialist advice without changing your existing production arrangements."
   },
   "ai": {
     "heading": "Artificial intelligence and confidentiality",
-    "p1": "We take a pragmatic approach to artificial intelligence.",
-    "p2": "AI-powered tools are used where they add value, improve efficiency and do not place confidentiality at risk. However, we do not believe that excellent communication can be generated automatically. Technology can assist the process, but the best texts start in the mind, not on the motherboard.",
-    "p3": "Every project ultimately benefits from human judgement, subject-matter expertise and an understanding of how sophisticated English-language audiences read and interpret information. We therefore view AI as a tool, not a substitute for professional judgement, experience or writing ability.",
-    "p4": "Where confidentiality requirements or the nature of the assignment make the use of AI inappropriate, we work entirely without it."
+    "p1": "Producing a draft has become easier. Knowing whether it is fit to publish still requires expertise.",
+    "p2": "We help you assess and improve texts produced by people or AI, applying professional judgement to their accuracy, clarity and suitability for your audience. The depth of review is agreed with you, taking account of the purpose of the text and the consequences of getting it wrong.",
+    "p3": "We use technology selectively where it adds value and is compatible with your confidentiality requirements. We can also work entirely without AI. Your information is handled with care throughout the assignment."
   },
   "clients": {
     "heading": "Clients",
-    "p1": "Our long-standing client base includes banks, insurers, non-financial companies, regulators, public bodies and professional services firms across Switzerland."
+    "p1": "We work with banks, insurers, non-financial companies, regulators, public bodies and professional services firms across Switzerland.",
+    "p2": "Our clients turn to us for specialist language skills, informed advice and an independent view of communications that matter to their business. We work alongside internal teams and existing providers, giving you additional expertise where you need it."
   },
   "about": {
     "heading": "About us",
-    "p1": "Michael Dever & Associates celebrates its twentieth anniversary in 2026.",
-    "p2": "Over two decades we've earned the trust of Switzerland's business community. My team's depth of experience and commitment to quality make us a valued partner for companies seeking precise, reliable English."
+    "p1": "Michael Dever & Associates has served the Swiss business community since 2006.",
+    "p2": "We combine experience in financial services with specialist language expertise and a close understanding of corporate communications. Our network brings together trusted professionals who understand both the subjects they work on and the audiences they write for.",
+    "p3": "Long-standing client relationships are built on that combination: knowledge of your business, careful attention to your words and the confidence to flag what needs a second look."
   },
   "contact": {
     "heading": "Contact",
-    "geneva": "Geneva office",
-    "charmey": "Charmey office",
     "mobile": "Mobile",
     "email": "Email",
     "linkedin": "LinkedIn",
-    "linkedinLabel": "LinkedIn Profile"
+    "linkedinLabel": "LinkedIn Profile",
+    "intro": "Need a text translated, a draft improved or an independent opinion before publication? Let’s discuss where expert support would be most useful."
   },
   "footer": {
     "copyright": "© 2026 Michael Dever & Associates"
